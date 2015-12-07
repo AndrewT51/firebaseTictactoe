@@ -1,0 +1,61 @@
+#winText {
+	border-radius: 40px;
+	color:black;
+	text-align: center;
+	font-size: 4em;
+	background-color: lightgrey;
+	font-weight: bold;
+	margin: 0 auto;
+	position:relative;
+	top: -230px;
+	border: solid black 1px;
+	display:none;
+	width:600px;
+}
+
+
+body {
+	background-image: url(https://kidsentertainmenttelevison.files.wordpress.com/2014/12/cartoons__039096_.jpg);
+	background-size: 100%;
+}
+
+h1 {
+	text-align: center;
+}
+
+table {	
+	height: 300px;
+	width: 300px;
+	margin: 0 auto;
+	border-collapse: collapse;
+}
+
+td {
+	border: solid black 1px;
+}
+
+.noughts {
+	background-image: url('noughts.png');
+	background-size: 100%;
+}
+
+.crosses {
+	background-image: url('crosses.png');
+	background-size: 100%;
+}
+#p1 {
+	visibility: hidden;
+
+}
+
+#p2 {
+
+visibility: hidden;
+
+}
+#wait {
+	display:none;
+}
+#join {
+	display:none;
+}
